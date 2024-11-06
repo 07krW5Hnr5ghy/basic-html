@@ -10,60 +10,64 @@
         <meta property="og:description" content="Juan Pablo Romero Poveda personal page with projects">
         <!-- Type of content, e.g., article, website -->
         <meta property="og:type" content="website">
+        <link rel="stylesheet" href="css/index.css"/>
     </head>
     <body>
         <header>
-            <div>
-                <h1>Juan Pablo Romero Poveda</h1>
+            <div class="upper-header">
+                <div class="logo-header">
+                    <div class="square"></div>
+                    <h3>Juan Pablo Romero Poveda</h3>
+                </div>
                 <nav>
                     <span>
-                        <a href="#">Home</a>
+                        <a href="#" class="link">Home</a>
                     </span>
                     <span> / </span>
                     <span>
-                        <a href="#projects">Projects</a>
+                        <a href="#projects" class="link">Projects</a>
                     </span>
                     <span> / </span>
                     <span>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.html" class="link">Contact</a>
                     </span>
                 </nav>
             </div>
-            <div>
+            <div class="lower-header">
                 <h1>Full Stack Developer</h1>
             </div>
         </header>
         <main>
             <section id="projects">
-                <h3>Projects</h3>
+                <h3 id="projects-title">Projects</h3>
                 <ul>
-                    <li>
-                        <a href="https://pi-pokemon-main-client-a1yl.vercel.app">Pokemon SPA</a>
+                    <li class="project">
+                        <a class="project-link" href="https://pi-pokemon-main-client-a1yl.vercel.app">Pokemon SPA</a>
                     </li>
-                    <li>
-                        <a href="https://express-test-liard.vercel.app">Express clothes e-commerce</a>
+                    <li class="project">
+                        <a class="project-link" href="https://express-test-liard.vercel.app">Express clothes e-commerce</a>
                     </li>
                 </ul>
             </section>
-            <div>
-                <section>
+            <section id="experience">
+                <div>
                     <h3>Work Experience</h3>
-                    <p>Powip - Full Stack Developer | Jan 2024 – Sep 2024 | Peru</p>
+                    <p><strong>Powip - Full Stack Developer | Jan 2024 – Sep 2024 | Peru</strong></p>
                     <ul>
-                        <li>Developed and maintained REST APIs for e-commerce inventory and order management using Spring Boot.</li>
-                        <li>Created dynamic Next.js views with data tables, filters, and pagination using Ant Design.</li>
-                        <li>Integrated the front-end (Next.js) with back-end (Spring Boot) services.</li>
-                        <li>Deployed and managed the application on Ubuntu virtual machines using Nginx.</li>
+                        <li class="task">Developed and maintained REST APIs for e-commerce inventory and order management using Spring Boot.</li>
+                        <li class="task">Created dynamic Next.js views with data tables, filters, and pagination using Ant Design.</li>
+                        <li class="task">Integrated the front-end (Next.js) with back-end (Spring Boot) services.</li>
+                        <li class="task">Deployed and managed the application on Ubuntu virtual machines using Nginx.</li>
                     </ul>
-                    <p>Powip - Full Stack Developer Volunteer | Mar 2023 – Dec 2023 | Peru</p>
+                    <p><strong>Powip - Full Stack Developer Volunteer | Mar 2023 – Dec 2023 | Peru</strong></p>
                     <ul>
-                        <li>Created and modified React user interfaces with Ant Design.</li>
-                        <li>Established data connections between the UI and Firestore databases.</li>
-                        <li>Developed PostgreSQL database endpoints for CRUD operations in a Spring Boot backend.</li>
-                        <li>Diagnosed and resolved front-end and back-end application issues.</li>
+                        <li class="task">Created and modified React user interfaces with Ant Design.</li>
+                        <li class="task">Established data connections between the UI and Firestore databases.</li>
+                        <li class="task">Developed PostgreSQL database endpoints for CRUD operations in a Spring Boot backend.</li>
+                        <li class="task">Diagnosed and resolved front-end and back-end application issues.</li>
                     </ul>
-                </section>
-            </div>
+                </div>
+            </section>
             <section>
                 <h3>Education</h3>
                 <p>Henry - Full Stack Developer | Computer Software and Media Applications</p>

@@ -1,0 +1,160 @@
+body{
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh;
+    overflow: auto;
+    position: fixed; */
+}
+
+header{
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.square{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color:black;
+}
+
+.lower-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#projects{
+    padding: 0;
+    overflow: hidden;
+}
+
+#projects-title{
+    margin-left: 10px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.project{
+    list-style-type: none;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
+    background-color: lightgray;
+}
+
+.project-link{
+    text-decoration: none;
+    color: black;
+}
+
+.task{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+#experience{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width:600px) {
+
+    body{
+        border:1px solid black;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        overflow: auto;
+        position: fixed;
+    }
+        
+    .upper-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .square{
+        background-color: black;
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+        margin-left: 15px;
+    }
+    
+    nav{
+        margin-right: 15px;
+    }
+    
+    .lower-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+
+    section{
+        border-left:1px solid black;
+        padding: 20px;
+    }
+
+}
+
